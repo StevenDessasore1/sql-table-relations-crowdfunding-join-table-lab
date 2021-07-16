@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'environment'
 
 db = SQLite3::Database.new('../db/lab_database.db')
